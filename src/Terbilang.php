@@ -7,7 +7,7 @@
  *
  * <code>
  *   <?php
- *   use RioAstamal\AngkaTerbilang\Terbilang;
+ *   use Indonesia\AngkaTerbilang\Terbilang;
  *
  *   $terbilang = new Terbilang();
  *   $terbilang->terbilang('2000'); // dua ribu
@@ -20,7 +20,7 @@
  * @category    Math
  * @license     MIT License <https://opensource.org/licenses/MIT>
  */
-namespace RioAstamal\AngkaTerbilang;
+namespace Indonesia\AngkaTerbilang;
 
 class Terbilang
 {
