@@ -1,7 +1,7 @@
 <?php
-namespace RioAstamal\AngkaTerbilang\Test;
+namespace Indonesia\AngkaTerbilang\Test;
 
-use RioAstamal\AngkaTerbilang\Terbilang;
+use Indonesia\AngkaTerbilang\Terbilang;
 
 class TerbilangTest extends \PHPUnit_Framework_TestCase
 {
