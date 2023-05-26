@@ -11,7 +11,7 @@ Berikut contoh singkat penggunaan Terbilang.
 
 ```php
 <?php
-use RioAstamal\AngkaTerbilang\Terbilang;
+use Indonesia\AngkaTerbilang\Terbilang;
 
 echo Terbilang::create()->terbilang('5678');
 // lima ribu enam ratus tujuh puluh delapan
@@ -77,7 +77,7 @@ Berikut beberapa contoh penggunaan pustaka Terbilang dan outputnya. Argumen yang
 
 ```php
 <?php
-use RioAstamal\AngkaTerbilang\Terbilang;
+use Indonesia\AngkaTerbilang\Terbilang;
 
 $terbilang = new Terbilang();
 $terbilang->terbilang('5');
@@ -148,36 +148,36 @@ Untuk menjalankan unit test disarankan menggunakan phpunit yang berada pada vend
 $ ./vendor/bin/phpunit --debug
 PHPUnit 6.5.8 by Sebastian Bergmann and contributors.
 
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testStaticInstance' started
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testStaticInstance' ended
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testTerbilangKurangDari12' started
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testTerbilangKurangDari12' ended
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testTerbilangBelasan' started
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testTerbilangBelasan' ended
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testTerbilangPuluhan' started
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testTerbilangPuluhan' ended
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testTerbilangRatusan' started
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testTerbilangRatusan' ended
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testTerbilangRibuan' started
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testTerbilangRibuan' ended
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testTerbilangJutaan' started
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testTerbilangJutaan' ended
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testTerbilangMilyaran' started
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testTerbilangMilyaran' ended
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testTerbilangTriliunan' started
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testTerbilangTriliunan' ended
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testTerbilangSeptiliun' started
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testTerbilangSeptiliun' ended
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testTerbilangDenganKoma' started
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testTerbilangDenganKoma' ended
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testAngkaKomaGanda' started
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testAngkaKomaGanda' ended
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testPemisahRibuanDenganBeberapaPemisah' started
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testPemisahRibuanDenganBeberapaPemisah' ended
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testPemisahDesimalBukanTitik' started
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testPemisahDesimalBukanTitik' ended
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testShortcutMethod' started
-Test 'RioAstamal\AngkaTerbilang\Test\TerbilangTest::testShortcutMethod' ended
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testStaticInstance' started
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testStaticInstance' ended
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testTerbilangKurangDari12' started
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testTerbilangKurangDari12' ended
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testTerbilangBelasan' started
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testTerbilangBelasan' ended
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testTerbilangPuluhan' started
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testTerbilangPuluhan' ended
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testTerbilangRatusan' started
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testTerbilangRatusan' ended
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testTerbilangRibuan' started
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testTerbilangRibuan' ended
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testTerbilangJutaan' started
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testTerbilangJutaan' ended
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testTerbilangMilyaran' started
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testTerbilangMilyaran' ended
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testTerbilangTriliunan' started
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testTerbilangTriliunan' ended
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testTerbilangSeptiliun' started
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testTerbilangSeptiliun' ended
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testTerbilangDenganKoma' started
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testTerbilangDenganKoma' ended
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testAngkaKomaGanda' started
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testAngkaKomaGanda' ended
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testPemisahRibuanDenganBeberapaPemisah' started
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testPemisahRibuanDenganBeberapaPemisah' ended
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testPemisahDesimalBukanTitik' started
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testPemisahDesimalBukanTitik' ended
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testShortcutMethod' started
+Test 'Indonesia\AngkaTerbilang\Test\TerbilangTest::testShortcutMethod' ended
 
 
 Time: 174 ms, Memory: 4.00MB
