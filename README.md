@@ -34,7 +34,7 @@ Untuk instalasi Terbilang dapat digunakan composer atau melalui cara manual yait
 Pastikan `composer` sudah terinstal pada sistem anda. Lalu jalankan perintah berikut untuk menginstal Terbilang.
 
 ```
-$ composer require rioastamal/terbilang -vvv
+$ composer require coijiryuna/terbilang -vvv
 ```
 
 ### Instalasi Manual
@@ -42,7 +42,7 @@ $ composer require rioastamal/terbilang -vvv
 Clone project Terbilang dari Github.
 
 ```
-$ git clone git@github.com:rioastamal/terbilang.git
+$ git clone git@github.com:coijiryuna/terbilang.git
 $ cd terbilang
 ```
 
