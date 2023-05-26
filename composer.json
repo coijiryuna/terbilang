@@ -14,7 +14,7 @@
         "source": "https://github.com/rioastamal/terbilang"
     },
     "require": {
-        "php": ">=^7.1 || ^8.0",
+        "php": ">=^7.1",
         "ext-bcmath": "*"
     },
     "require-dev": {
