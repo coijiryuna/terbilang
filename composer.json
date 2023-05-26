@@ -1,5 +1,5 @@
 {
-    "name": "rioastamal/terbilang",
+    "name": "indonesia/terbilang",
     "description": "Sebuah pustaka untuk menterjemahkan angka ke dalam bilangan Bahasa Indonesia",
     "type": "library",
     "license": "MIT",
@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "RioAstamal\\AngkaTerbilang\\": "src/"
+            "Indonesia\\AngkaTerbilang\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "RioAstamal\\AngkaTerbilang\\Test\\": "tests/"
+            "Indonesia\\AngkaTerbilang\\Test\\": "tests/"
         }
     },
     "extra": {
